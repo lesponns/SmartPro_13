@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,10 +11,9 @@ namespace SmartPro_13
         static void Main(string[] args)
         {
             int last=0;
-            for (int i = 0; i < 10; i++)
-            {
+            for (int i = 0; i < 10; i++) {
                 Console.Write(i+" ");
-                last = last +i;
+                last=last+i;
             }
             Console.WriteLine("Sonuç: "+last);
             Console.ReadKey();
